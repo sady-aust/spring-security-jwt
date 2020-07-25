@@ -1,7 +1,7 @@
 package com.toufiq.springsecurityjwt;
 
-import com.toufiq.springsecurityjwt.modes.AuthenticationRequest;
-import com.toufiq.springsecurityjwt.modes.AuthenticationResponse;
+import com.toufiq.springsecurityjwt.models.AuthenticationRequest;
+import com.toufiq.springsecurityjwt.models.AuthenticationResponse;
 import com.toufiq.springsecurityjwt.service.MyUserDetailsService;
 import com.toufiq.springsecurityjwt.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,6 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

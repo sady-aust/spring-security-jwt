@@ -1,4 +1,4 @@
-package com.toufiq.springsecurityjwt.modes;
+package com.toufiq.springsecurityjwt.models;
 
 public class AuthenticationResponse {
     private String jwt;
